@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #222;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    border: 3px solid white;
+}
+h1 {
+    text-align: center;
+    color: #ff7176;
+    padding: 10px;
+}
+.btn-change {
+    background: black;
+    color: white;
+    font-size: 16px;
+    border: 3px solid blueviolet;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px 7px;
+}
+.div-btn {
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.btn-change:active {
+    opacity: .8;
+}
+#imagem {
+    height: 400px;
+    width: 622px;
+}
